@@ -21455,25 +21455,25 @@
 	    return (
 	      React.DOM.div(null, 
 	        React.DOM.p(null, "MY FIRST PAGE IN REACT"), 
-	        React.DOM.div({class: "row"}, 
-	          React.DOM.div({class: "twelve columns"}, 
+	        React.DOM.div({className: "row"}, 
+	          React.DOM.div({className: "twelve columns"}, 
 	            React.DOM.h1(null, " Nguyen Ho Trong Thao "), 
 	            React.DOM.h4(null, " Running man!"), 
-	            React.DOM.a({href: "http://fb.com/trongthaonh", class: "btn"}, "Click me")
+	            React.DOM.a({href: "http://fb.com/trongthaonh", className: "btn"}, "Click me")
 	          )
 	        ), 
-	        React.DOM.section({class: "about"}, 
-	          React.DOM.div({class: "container"}, 
-	            React.DOM.div({class: "row"}, 
-	              React.DOM.div({class: "twelve columns"}, 
+	        React.DOM.section({className: "about"}, 
+	          React.DOM.div({className: "container"}, 
+	            React.DOM.div({className: "row"}, 
+	              React.DOM.div({className: "twelve columns"}, 
 	                React.DOM.h3(null, "Who am I")
 	              )
 	            ), 
-	            React.DOM.div({class: "row bottom"}, 
-	              React.DOM.div({class: "two-thirds column"}, 
+	            React.DOM.div({className: "row bottom"}, 
+	              React.DOM.div({className: "two-thirds column"}, 
 	                React.DOM.p(null, "Lorem ....")
 	              ), 
-	              React.DOM.div({class: "one-third column"}, 
+	              React.DOM.div({className: "one-third column"}, 
 	                React.DOM.h4(null, "Degrees"), 
 	                React.DOM.ul(null, 
 	                  React.DOM.li(null, "Bachelor in Information Systems")

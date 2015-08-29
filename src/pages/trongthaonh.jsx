@@ -19,25 +19,25 @@ var TrongThaoPage = React.createClass({
     return (
       <div>
         <p>MY FIRST PAGE IN REACT</p>
-        <div class="row">    
-          <div class="twelve columns">
+        <div className="row">    
+          <div className="twelve columns">
             <h1> Nguyen Ho Trong Thao </h1>
             <h4> Running man!</h4>
-            <a href="http://fb.com/trongthaonh" class="btn">Click me</a> 
+            <a href="http://fb.com/trongthaonh" className="btn">Click me</a> 
           </div>
         </div>
-        <section class="about">
-          <div class="container">
-            <div class="row">
-              <div class="twelve columns">
+        <section className="about">
+          <div className="container">
+            <div className="row">
+              <div className="twelve columns">
                 <h3>Who am I</h3>
               </div>
             </div>
-            <div class="row bottom">
-              <div class="two-thirds column">
+            <div className="row bottom">
+              <div className="two-thirds column">
                 <p>Lorem ....</p>
               </div>
-              <div class="one-third column">
+              <div className="one-third column">
                 <h4>Degrees</h4>
                 <ul>
                   <li>Bachelor in Information Systems</li>
